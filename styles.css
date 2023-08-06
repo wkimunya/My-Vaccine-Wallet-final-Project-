@@ -1,17 +1,38 @@
-head{
-    color: black;
-    background-color: whitesmoke;
+h1{
+    color: wheat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    padding-left: 0cap;
+    padding-left: 5pc;
+    position: relative;
 }
 p {
-    color: black;
-    background-color: white;
+    color: wheat;
+    position: relative;
+    padding-left: 5pc;
+}
+pre{
+    color: whitesmoke;
+    position: relative;
+    padding-left: 5pc;
 }
 body{
-    background-image: url('vaccine\ 2.jpeg');
+    
+    background-position: center;
+    width: 200vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('vaccine\ 3.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
