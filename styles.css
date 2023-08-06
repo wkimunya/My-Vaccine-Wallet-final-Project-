@@ -11,7 +11,18 @@ p {
     padding-left: 5pc;
 }
 pre{
-    color: whitesmoke;
+    color: wheat;
+    position: relative;
+    padding-left: 5pc;
+}
+table{
+    color: white;
+    position: relative;
+    padding-left: 5pc;
+}
+
+h3{
+    color: wheat;
     position: relative;
     padding-left: 5pc;
 }
