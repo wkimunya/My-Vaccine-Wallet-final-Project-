@@ -1,0 +1,30 @@
+# My Vaccine Wallet
+my vaccine Wallet is a tool that the user will use to keep track of their vaccination history, i.e, the vaccination given to date, the ones that are due and the ones they will need incase they are travelling acros borders. Its aim is to foster good vaccination practices and encourage more people to get the relevant vaccines in a bid to reduce the prevalence of preventable diseases.
+
+##  The user journey
+
+1. As a user, I want to Sign up, with my name and Id Number as the unique identifier. I also want to key in my date of birth in order to get the age calculated by the app for accurate suggestions of the vaccines needed at a given point in time.
+
+2. As a user I want to sign in to the app with the username and Password created during the sign up phase so that I can access the data stored in the vaccine app.
+
+3. As a user, I want to access my history of vaccines, inclusing the batch numbers of the same for verification purposes, so that I can compare what i have recieved with what is required and ensure only the necessary vaccines are administered.
+
+4. As a user, i want to see the latest vaccine that was administered and when it is due next so that I can plan for it and put it in my calender.
+
+5. As a user, I want to view updated Triage details including my blood pressure, heart rate, and temperature before and after administration of the vaccine, so as to know which vaccines I am allergic to.
+
+6. As a user I want to have access to a secure QR code on my app for provider to scan and get the latest administered vaccine and patient record, so that I can have full control of my data.
+
+
+## The Onboarding procedure 
+As a new user, the following onboarding process is followed
+
+- Key in your full names
+- Key in your IDPassport number 
+- Key in your preferred username 
+- Key in your email address
+- Key in your preferred password; It must include a Capital letter, 8 characters minimum, a symbol and a number 
+
+once you have done the above, a confirmation email is sent to the email you used during registrationfor you to verify that email
+
+
