@@ -1,19 +1,15 @@
-const url = 'https://hps-covid-19-vaccination-among-people-with-disabilities.p.rapidapi.com/meta';
+const url = 'https://drug-info-and-price-history.p.rapidapi.com/1/druginfo?drug=advil';
 
-function vaccineData(){
-    fetch ('https://hps-covid-19-vaccination-among-people-with-disabilities.p.rapidapi.com/meta')
+function allVaccines(){
+    fetch('https://drug-info-and-price-history.p.rapidapi.com/1/druginfo?drug=advil')
     .then(response => response.json())
-    .then(response => {
-        console.log(response);
-        console.log()
-    })
+    .then(console.log(response));
 }
-
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '1afc08cb01msh6a1748329ee60b2p1621a7jsn3304bc620b64',
-		'X-RapidAPI-Host': 'hps-covid-19-vaccination-among-people-with-disabilities.p.rapidapi.com'
+		'X-RapidAPI-Key': 'fcd52233dcmsh941c3fc4026d4e5p1a8f47jsn113401085250',
+		'X-RapidAPI-Host': 'drug-info-and-price-history.p.rapidapi.com'
 	}
 };
 
