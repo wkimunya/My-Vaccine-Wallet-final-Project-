@@ -7,5 +7,11 @@ head{
 }
 p {
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
+}
+body{
+    background-image: url('vaccine\ 2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
