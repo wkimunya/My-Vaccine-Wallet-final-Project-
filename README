@@ -38,7 +38,8 @@ We used the fetch function to get our API from Rapid API
 fetch('https://endlessmedicalapi1.p.rapidapi.com/GetOutcomes')
 
 we then created event listeners to make the buttons clickable 
+we then created assynchronous functions to make sure that the functionality of the appp is upto date
 
 ## JSON Listener
 
-We used the JSON listener throughout the project
+We used the JSON listener throughout the project in an asyncronous manner.
