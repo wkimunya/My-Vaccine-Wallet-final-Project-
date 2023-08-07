@@ -19,7 +19,7 @@ try {
 } catch (error) {
 	console.error(error);
 }
-
+//Usin the Public API to make changes using POST 
 function createVaccinePost(vaccineData, vaccineId) {
     const selectedVaccine = vaccineData.vaccine.find(vaccine => vaccine.id === vaccineId);
   
@@ -32,7 +32,7 @@ function createVaccinePost(vaccineData, vaccineId) {
       const post = createPost(title, content, author, date);
       return post;
     } else {
-      return null; // Vaccine with the given ID not found
+      return null; 
     }
   }
 //make the submit data on the registrationn button clickable
@@ -58,7 +58,7 @@ function signIn() {
     console.log('Username:', username);
     console.log('Password:', password);
 
-    // Optionally, you can reset the form after submission
+// Optionally, you can reset the form after submission
     document.querySelector('.loginForm').reset();
 }
 
