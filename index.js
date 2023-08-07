@@ -35,7 +35,7 @@ function createVaccinePost(vaccineData, vaccineId) {
       return null; // Vaccine with the given ID not found
     }
   }
-//make the submit data button clickable
+//make the submit data on the registrationn button clickable
   function submitDetails() {
     // Get the form data
     const formData = {
@@ -46,15 +46,21 @@ function createVaccinePost(vaccineData, vaccineId) {
         password: document.querySelector('input[name="Password"]').value,
     };
 
-    // Perform any data validation here before submitting the form
+    console.log(formData); 
+     document.querySelector('.newRegistration').reset();
+}
+//Redirect the user to the vaccine page after signing in
+function signIn() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
 
-    // Send the form data to the server (Note: This is a simplified example, and you'd need a server-side script to handle the actual form submission)
-    console.log(formData); // Just printing the data to the console as an example
+    
+    console.log('Username:', username);
+    console.log('Password:', password);
 
     // Optionally, you can reset the form after submission
-    document.querySelector('.newRegistration').reset();
+    document.querySelector('.loginForm').reset();
 }
-//
 
 //get alldropdown from the document
 const dropdowns = document.querySelectorAll('.dropdown');
