@@ -103,10 +103,34 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div 
-
-a{
-    color: wheat;
-    position: relative;
-    padding-left: 5pc;
+nav ul{
+    float: left;
 }
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+color: wheat;
+font-size: 14px;
+padding: 21px 14 px;
+text-decoration: none;
+
+}
+nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+    
+nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
