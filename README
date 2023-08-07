@@ -27,5 +27,18 @@ As a new user, the following onboarding process is followed
 
 once you have done the above, a confirmation email is sent to the email you used during registrationfor you to verify that email
 
-## Information accessible 
-- Onclick 
+## CSS style
+
+The entire HTML is styled usting the external CSS file 
+
+## JS
+
+We used the fetch function to get our API from Rapid API
+
+fetch('https://endlessmedicalapi1.p.rapidapi.com/GetOutcomes')
+
+we then created event listeners to make the buttons clickable 
+
+## JSON Listener
+
+We used the JSON listener throughout the project

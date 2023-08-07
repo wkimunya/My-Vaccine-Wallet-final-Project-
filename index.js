@@ -20,8 +20,23 @@ try {
 	console.error(error);
 }
 
+function createVaccinePost(vaccineData, vaccineId) {
+    const selectedVaccine = vaccineData.vaccine.find(vaccine => vaccine.id === vaccineId);
+  
+    if (selectedVaccine) {
+      const title = `Vaccine Spotlight: ${selectedVaccine.name}`;
+      const content = `${selectedVaccine.name} vaccine is an important preventive measure in public health. ${selectedVaccine.schedule}.`;
+      const author = "Your Name";
+      const date = new Date().toLocaleDateString();
+  
+      const post = createPost(title, content, author, date);
+      return post;
+    } else {
+      return null; // Vaccine with the given ID not found
+    }
+  }
 
-//Adding an event listener 
+//
 
 //get alldropdown from the document
 const dropdowns = document.querySelectorAll('.dropdown');
