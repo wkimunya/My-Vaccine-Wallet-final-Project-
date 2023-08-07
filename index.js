@@ -35,7 +35,25 @@ function createVaccinePost(vaccineData, vaccineId) {
       return null; // Vaccine with the given ID not found
     }
   }
+//make the submit data button clickable
+  function submitDetails() {
+    // Get the form data
+    const formData = {
+        name: document.querySelector('input[name="Name"]').value,
+        idNumber: document.querySelector('input[name="ID Number"]').value,
+        email: document.querySelector('input[name="email"]').value,
+        gender: document.querySelector('input[name="Gender"]').value,
+        password: document.querySelector('input[name="Password"]').value,
+    };
 
+    // Perform any data validation here before submitting the form
+
+    // Send the form data to the server (Note: This is a simplified example, and you'd need a server-side script to handle the actual form submission)
+    console.log(formData); // Just printing the data to the console as an example
+
+    // Optionally, you can reset the form after submission
+    document.querySelector('.newRegistration').reset();
+}
 //
 
 //get alldropdown from the document
@@ -50,6 +68,9 @@ dropdownArray.forEach(dropdown => {
     const options = dropdown.querySelectorAll('.menu li');
     const selected = dropdown.querySelector('.selected');
 
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    
 
 //add an avent to the element
 select.addEventListener('click', () => {
