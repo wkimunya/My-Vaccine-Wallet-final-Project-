@@ -10,18 +10,85 @@ p {
     color: wheat;
     position: relative;
     padding-left: 5pc;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-pre{
+pre {
     color: wheat;
     position: relative;
     padding-left: 5pc;
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
+.dropdown {
+    color: wheat;
+    padding: 16px;
+    font-size: 16px;
+    position: relative;
+    margin: 2em;
+}
+
+.dropdown * {
+box-sizing: border-box;
+}
+
+select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px;
+    cursor: pointer;
+}
+
+.select-clicked {
+    border: 2px;
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: 0.3s;
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    border: 1px;
+    box-shadow: 0 0.5em 1em ;
+    border-radius: 0.5em;
+    position: absolute;
+    color: wheat;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+}
+
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
 form{
     color: wheat;
     position: relative;
     padding-left: 5pc;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+
 }
 
 h3{
@@ -36,6 +103,8 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
     }
 
 body::before{

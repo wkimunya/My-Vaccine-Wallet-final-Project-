@@ -5,43 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Vaccine Wallet</title>
     <link rel="stylesheet" href="styles.css" >
-
 </head>
 <body>
  <h1> Welcome to your Vaccination wallet! </h1>
  <p> 
     <pre>This wallet allow you to keep track of your vaccination history in a neat and </pre>
-   <pre>accurate manner. A well documented vaccination history saves you time, especially </pre>
+    <pre>accurate manner. A well documented vaccination history saves you time, especially </pre>
     <pre>when travelling we intend to be your travel companion, while reducing paperwork </pre>
     <pre>required, and this will be your contribution in reducing the carbon blue print </pre>
     <pre>in the long run. All efforts, no matter how insignificant they may appear, </pre>
     counts 
 </p>
-    <p> Lets walk through the onboarding process, shall we?
-        <pre> first, are you a new member? you sign up below </pre>
-        <h3> Registration </h3>
-        <form>
-            <input name="Name" placeholder= "Name"/>
+    <p>  <pre> First, are you a new member? If yes, you sign up below </pre>
+
+        <h3> Sign up </h3>
+
+        <form class="newRegistration">
+            <input name= "Name" placeholder= "Name"/>
         </br>
-            <input name="ID Number"  placeholder= "ID Number" type="number"/>
+            <input name= "ID Number"  placeholder= "ID Number" type="number"/>
         </br>
-            <input name="email" placeholder= "Email Address" type="email"/>
+            <input name= "email" placeholder= "Email Address" type="email"/>
         </br>  
-            <input name="Gender" placeholder= "Gender"/>
+            <input name= "Gender" placeholder= "Gender"/>
         </br>
-            <input name="Password" placeholder= "Password" />
-            <button onclick="myOnclickFn()"> Submit details </button>
+            <input name= "Password" placeholder= "Password" />
+            <button> Submit details </button>
         </form>
+
     </p>
         <p> Already signed up? Let's dive in!
-            <pre> Username </pre>
-            <pre> Password </pre>
+            <form>
+            <button type="Submit"> SIGN IN</button>
+            </form>
+            
         </p>
         <p> 
             <h2> Vaccination History</h2>
-            <pre> Most recent vaccine </pre>
-            <pre> Other vaccines administered to date</pre>
-            <pre> Vaccines that are due within the month open</pre>
+             <pre> Vaccines administered </pre>
+             <div class="dropdown">
+               <div class="select">
+                <span class="selected"> Vaccines administered</span>
+               </div>
+               <ul class="menu">
+                <li> Varicella Zoaster </li>
+                <li> Meningococcal </li>
+                <li> Chicken Pox </li>
+                <li> Hemophillus influenza </li>
+                <li> Hepatitis A </li>
+                <li> MMR </li>
+               </ul>
+
+
+            <pre> Vaccines due for a booster</pre>
+            
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected"> Booster needed</span>
+                    <div class="caret"></div>
+                </div>
+              <ul class="menu">
+                <li> Meningococcal </li>
+                <li> Hemophilus influenza</li>
+                <li> Hepatitis A </li>
+              </ul>
+               </div>
         </p>
 
     <script src="index.js"></script>

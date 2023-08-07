@@ -1,0 +1,35 @@
+{
+  "vaccine": [
+    {
+      "id": 1,
+      "name": "Varicella Zoaster",
+      "schedule": "This vaccine is given once in a lifetime to individuals whom have not been exposed before"
+    }, 
+  {
+     "id": 2,
+      "name": "Meningococcal",
+      "schedule": "This vaccine is given annually to individuals who live in regions that are prone to getting this condition"
+  },
+{
+      "id": 3,
+      "name": "Chicken Pox",
+      "schedule": "This vaccine is given to individuals who live in areas that are infested to prevent spread"
+},
+{
+      "id": 4,
+      "name": "Haemophilus Influenza type b",
+      "schedule": "This is given annually to prevent spread of the condition to individuals who are prone"
+},
+{
+      "id": 5,
+      "name": "Hepatitis  A",
+      "schedule": "This vaccine is given to food handlers and healthcare workers to prevent further spread"
+},
+{
+     "id": 6,
+     "name": "MMR",
+     "schedule": "This is a vaccine given to individuals who living in areas that are infested and also given to pregnant women"
+}
+
+  ]
+}
